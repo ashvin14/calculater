@@ -1,0 +1,53 @@
+body{
+
+background-color: #f7c31b
+}
+
+.boxed{
+	background-color: #f78c1b;
+	height: 450px;
+	border: solid 4px black;
+	width: 500px;
+	vertical-align: center;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 100px;
+	border-radius: 20px;
+	 
+
+}
+textarea{
+	border: solid 1px black;
+	background-color: #d6d7d8;
+	width: 60%;
+	margin-top: 40px;
+	margin-right:100px;
+	border-radius:5px;
+
+}
+.buttons{
+	background-color: #f44842;
+	border: solid 3px black;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 45px;
+	height: 300px;
+	width: 80%;
+	border-radius:20px;
+
+}
+button{
+	width: 80px;
+	margin: 10px;
+	margin-right: 10px
+
+
+}
+.row1,.row2,.row3,.row4,.row5{
+	margin-right: 0px;
+}
+.equals{
+	margin-left: 350px;
+	margin-bottom: 60px;
+	
+}

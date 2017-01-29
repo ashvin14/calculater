@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<head>
+			<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+		</head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<title>Interactive Website</title>
+		<link rel="stylesheet" type="text/css" href="dummy.css">
+	</head>
+	<body>
+		
+		<div class="boxed">
+			<textarea id="textarea" placeholder="0">
+			
+			</textarea>
+			<div class="buttons">
+				<div class="row1"><button class="btn btn-lg" onclick="getInput(1)">1</button>
+					<button class="btn btn-lg" onclick="getInput(2)">2</button>
+				<button class="btn btn-lg" onclick="getInput(3)">3</button></div>
+				<div class="row2"><button class="btn btn-lg" onclick="getInput(4)">4</button>
+					<button class="btn btn-lg" onclick="getInput(5)">5</button>
+				<button class="btn btn-lg" onclick="getInput(6)">6</button></div>
+				<div class="row3"><button class="btn btn-lg" onclick="getInput(7)">7</button>
+					<button class="btn btn-lg" onclick="getInput(8)">8</button>
+				<button class="btn btn-lg" onclick="getInput(9)">9</button></div>
+				<div class="row4"><button class="btn btn-lg op" onclick="add()">+</button>
+					<button class="btn btn-lg op" onclick="sub()">-</button>
+				<button class="btn btn-lg op" onclick="mul()">*</button></div>
+				<div class="row5"><button class="btn btn-lg op" onclick="div()">/</button>
+					<button class="btn btn-lg op" onclick="compute()">=</button>
+				<button class="btn btn-lg" onclick="clearAll()">CE</button></div>
+				
+			</div>
+			
+		</div>
+		<!--mpiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="dummy.js"></script>
+	</body>
+</html>
